@@ -1,3 +1,7 @@
+project('SEGGER_RTT', 'c',
+    version: '8.38',
+)
+
 segger_rtt_src = files(
   'SEGGER_RTT.c',
   'SEGGER_RTT_printf.c',
